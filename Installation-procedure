@@ -74,19 +74,29 @@ Verifiy Trivy installation: trivy --version
 
 8. Install Docker Scout
 Make sure to Login to DockerHub account in browser
-<Follow the process as explained in the video>
+docker login -u softintown
+curl -sSfL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh | sh -s -- -b /usr/local/bin
+chmod 777 /var/run/docker.sock
+
 
 9. Install SonarQube using Docker
 $ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 $ docker ps (You can see SonarQube container)
 
-<Follow the process as explained in the video>
+copy public ip of the server ex: 192.168.1.1:9000
+Default username password is admin admin
+change the admin password 
 
 10. Installation of Plugins in Jenkins
 Install below plugins:
-<Follow the process as explained in the video>
+Eclipse temurin installer, sonarqube scanner,nodejs,owasp,docker,docker pipeline,docker api,docker build,
+pipeline:stage view,prometheus metrics,email extension template.
+
 
 11. SonarQube configuration in Jenkins
+Create a new token. Go to Administration---> security--->users--->create token
+squ_944a8c72831d7028413fdc705b8d7215dd35a1c3
+
 <Follow the process as explained in the video>
 
 11.1. Tools Configuration in Jenkins
