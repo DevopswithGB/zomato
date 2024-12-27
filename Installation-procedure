@@ -97,7 +97,9 @@ pipeline:stage view,prometheus metrics,email extension template.
 Create a new token. Go to Administration---> security--->users--->create token
 squ_944a8c72831d7028413fdc705b8d7215dd35a1c3
 
-<Follow the process as explained in the video>
+Gmail configuration 
+create a app password 
+nxggpmztxskytpmx(remove space between)
 
 11.1. Tools Configuration in Jenkins
 <Follow the process as explained in the video>
