@@ -95,7 +95,7 @@ pipeline:stage view,prometheus metrics,email extension template.
 
 11. SonarQube configuration in Jenkins
 Create a new token. Go to Administration---> security--->users--->create token
-squ_944a8c72831d7028413fdc705b8d7215dd35a1c3
+squ_479d695510af558b2f0f723d7c4ed33c4d09a16f
 
 Gmail configuration 
 create a app password 
